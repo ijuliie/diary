@@ -29,4 +29,4 @@ class Entry(models.Model):
         verbose_name_plural = 'Entries'
 
     def __str__(self):
-        return str(self.created_at)
+        return str(self.owner)
